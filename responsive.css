@@ -442,35 +442,6 @@ svg:not(:root).touch-icon {
     border-radius: 50%
 }
 
-.widget.Profile .default-avatar-wrapper .avatar-icon {
-    border-radius: 50%;
-    border: solid 1px #729c0b;
-    box-sizing: border-box;
-    fill: #729c0b;
-    margin: 0
-}
-
-.widget.Profile .individual .profile-img,
-.widget.Profile .individual .avatar-icon {
-    height: 90px;
-    width: 90px
-}
-
-.widget.Profile .team .profile-img,
-.widget.Profile .team .avatar-icon,
-.widget.Profile .team .default-avatar-wrapper {
-    height: 40px;
-    width: 40px
-}
-
-.widget.Profile .individual .default-avatar-wrapper .avatar-icon {
-    padding: 25px
-}
-
-.widget.Profile .team .default-avatar-wrapper .avatar-icon {
-    padding: 8px
-}
-
 .snippet-container {
     margin: 0;
     position: relative;
@@ -722,23 +693,6 @@ body#layout .search {
 .overflow-popup .tabs li.hidden {
     display: none
 }
-
-.widget.Sharing .sharing-button {
-    display: none
-}
-
-.widget.Sharing .sharing-buttons li {
-    padding: 0
-}
-
-.widget.Sharing .sharing-buttons li span {
-    display: none
-}
-
-.post-share-buttons {
-    position: relative
-}
-
 
 .sidebar-container {
     background-color: #f7f7f7;
