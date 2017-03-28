@@ -27,8 +27,6 @@
 }
 
 body {
-    overflow-wrap: break-word;
-    word-break: break-word;
     word-wrap: break-word
 }
 
@@ -499,13 +497,8 @@ svg:not(:root).touch-icon {
     top: 0;
     width: auto;
     z-index: 8;
-    -webkit-transition-property: opacity, -webkit-transform;
-    transition-property: opacity, -webkit-transform;
-    transition-property: transform, opacity;
     transition-property: transform, opacity, -webkit-transform;
-    -webkit-transition-duration: .2s;
     transition-duration: .2s;
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1)
 }
 
@@ -1056,23 +1049,12 @@ blockquote {
 
 .page {
     box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
     min-height: 100vh;
-    padding-bottom: 1em
 }
 
 .page>* {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto
 }
 
@@ -2786,12 +2768,6 @@ body.item-view .bg-photo-container+.centered-bottom {
     margin-top: 0
 }
 
-body.item-view .centered .centered-bottom {
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-    padding-top: 0
-}
 
 body.item-view .inline-ad {
     margin-bottom: 0;
@@ -3072,8 +3048,6 @@ body.item-view #comments .comment-form h4 {
 }
 
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
 
